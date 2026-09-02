@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+html {
+  font:
+    100%/1.4 system-ui,
+    sans-serif;
+}
