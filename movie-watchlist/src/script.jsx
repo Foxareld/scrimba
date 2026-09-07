@@ -76,8 +76,8 @@ function App() {
 				)}
 			</div>
 
-			<main className='h-[67vh]'>
-				<div className='w-[85vw] h-full mx-auto py-8'>
+			<main className='h-[67vh] max-w-3xl w-full mx-auto'>
+				<div className='w-full h-full mx-auto py-8 divide-y divide-gray-300'>
 					{moviedetails.length == 0 ? (
 						<div className='h-full flex-col flex items-center justify-center text-[#DFDDDD] font-bold space-y-2'>
 							<img src={emptyStateIcon} alt='' />
